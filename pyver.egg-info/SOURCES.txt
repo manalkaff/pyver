@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyver/__init__.py
+pyver/server.py
+pyver.egg-info/PKG-INFO
+pyver.egg-info/SOURCES.txt
+pyver.egg-info/dependency_links.txt
+pyver.egg-info/top_level.txt

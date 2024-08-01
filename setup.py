@@ -1,8 +1,9 @@
 from setuptools import find_packages, setup
+
 setup(
     name='pyver',
     packages=find_packages(),
-    version='0.1.2',
+    version='0.2.1',
     description='Python Advanced HTTP Server',
     author='Abd Rahman Alkaff',
     license='MIT',
@@ -11,3 +12,6 @@ setup(
     # tests_require=['pytest==4.4.1'],
     # test_suite='tests',
 )
+
+## BUILD: 
+# python setup.py bdist_wheel

@@ -24,6 +24,7 @@ class Urls:
     
     def find(self, method, path):
         try:
+            path = path.split("?")[0]
             url = self.urls[path]
             if url != None and url['method'] == method:
                 return url['function']

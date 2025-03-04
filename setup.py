@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 setup(
     name='pyver',
     packages=find_packages(),
-    version='0.2.1',
+    version='0.3.1',
     description='Python Advanced HTTP Server',
     author='Abd Rahman Alkaff',
     license='MIT',

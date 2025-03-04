@@ -62,3 +62,7 @@ class Serv(BaseHTTPRequestHandler):
 		host, port = self.client_address[:2]
 		#return socket.getfqdn(host)
 		return host
+
+
+	def log_message(self, format, *args) -> None:
+		pass
